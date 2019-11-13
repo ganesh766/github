@@ -27,7 +27,8 @@ app.use(function(req, res, next) {
 app.get('/', (request, response) => {
     response.send('welcome to my application')
 })
-
+app.delete()
+app.delete()
 app.get('/product', (request, response) => {
     const connection = connect()
     const statement = `select * from Product`
