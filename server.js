@@ -12,6 +12,8 @@ function connect() {
 
     connection.connect()
     return connection
+    connection.connect()
+    return connection
 }
 
 const app = express()
